@@ -15,12 +15,18 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Calculator specific variants
+        number: "bg-calculator-button-number text-foreground hover:bg-calculator-button-number-hover shadow-button hover:shadow-button-hover active:scale-95 transition-all duration-200 font-semibold text-lg",
+        operator: "bg-calculator-button-operator text-primary-foreground hover:bg-calculator-button-operator-hover shadow-button hover:shadow-button-hover active:scale-95 transition-all duration-200 font-semibold text-lg",
+        clear: "bg-calculator-button-clear text-primary-foreground hover:bg-calculator-button-clear-hover shadow-button hover:shadow-button-hover active:scale-95 transition-all duration-200 font-semibold text-lg",
+        equals: "bg-calculator-button-operator text-primary-foreground hover:bg-calculator-button-operator-hover shadow-button hover:shadow-button-hover active:scale-95 transition-all duration-200 font-semibold text-lg",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        calculator: "h-16 w-full rounded-xl text-xl font-semibold",
       },
     },
     defaultVariants: {

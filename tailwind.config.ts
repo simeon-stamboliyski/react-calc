@@ -47,16 +47,23 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        calculator: {
+          display: "hsl(var(--calculator-display))",
+          "button-number": "hsl(var(--calculator-button-number))",
+          "button-number-hover": "hsl(var(--calculator-button-number-hover))",
+          "button-operator": "hsl(var(--calculator-button-operator))",
+          "button-operator-hover": "hsl(var(--calculator-button-operator-hover))",
+          "button-clear": "hsl(var(--calculator-button-clear))",
+          "button-clear-hover": "hsl(var(--calculator-button-clear-hover))",
         },
+      },
+      backgroundImage: {
+        "calculator-gradient": "var(--calculator-bg)",
+      },
+      boxShadow: {
+        "calculator": "var(--calculator-shadow)",
+        "button": "var(--button-shadow)",
+        "button-hover": "var(--button-shadow-hover)",
       },
       borderRadius: {
         lg: "var(--radius)",
