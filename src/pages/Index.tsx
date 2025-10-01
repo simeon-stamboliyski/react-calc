@@ -1,7 +1,19 @@
-import Calculator from '@/components/Calculator';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Projects from '@/components/Projects';
+import ContactForm from '@/components/ContactForm';
 
 const Index = () => {
-  return <Calculator />;
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <Projects />
+        <ContactForm />
+      </main>
+    </div>
+  );
 };
 
 export default Index;
